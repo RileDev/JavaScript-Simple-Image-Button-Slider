@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image_window{
+    position: relative;
+    max-width: 600px;
+    height: 800px;
+    border-radius: 20px;
+    z-index: 9999;
+    overflow: hidden;
+
+}
+
+.all_images{
+    position: relative;
+    display: flex;
+    width: max-content;
+    height: inherit;
+    transform: translateX(0px);
+    transition: transform .2s ease-in;
+}
+
+.all_images img{
+    width: 600px;
+    height: inherit;
+}

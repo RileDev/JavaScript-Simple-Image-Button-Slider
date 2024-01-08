@@ -3,6 +3,8 @@
 <h3>Overview</h3>
 <p>This is a simplistic version of the image slider that you can import into your projects. To navigate between images, use buttons to change images. If you have some experience with JavaScript, feel free to change the code to fit your needs.</p> 
 
+<p>Clone the repository to see a demo look of the slider</p>
+
 <h3>How to use?</h3>
 <p><kbd>div</kbd> element with class name <tt>image_window</tt></p>
 <p>You should copy this element with their children</p>

@@ -11,6 +11,7 @@
 <p>You can add images as many as you want</p>
 <h3>Important!!!</h3>
 <p>To optimize the slider being smoother and loading faster, before importing your images make sure to compress images and export images as .webp</p>
+<p>Change the <tt>value-index</tt> value to ordinal number of the image hierarchy</p>
 
 <h3>Image credits</h3>
 image[0] = <a href="https://www.pexels.com/photo/woman-near-the-lake-in-the-mountains-15091952/">Click here to Open</a>  <br>

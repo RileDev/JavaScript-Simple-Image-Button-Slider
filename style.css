@@ -20,7 +20,7 @@
     width: max-content;
     height: inherit;
     transform: translateX(0px);
-    transition: transform .2s ease-in;
+    transition: transform .25s cubic-bezier(0.39, 0.58, 0.57, 1);
 }
 
 .all_images img{

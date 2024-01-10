@@ -9,20 +9,18 @@ let imgIndex = 0;
 backBtn.addEventListener("click", () => {
     if(imgIndex == 0) {
         imgIndex = allImgIndexes;
-        changeImage()
-        return;
+    }else{
+        imgIndex--;
     }
-    imgIndex--;
     changeImage()
 })
 
 nextBtn.addEventListener("click", () => {
     if(imgIndex >= allImgIndexes) {
         imgIndex = 0;
-        changeImage()
-        return;
+    }else{
+        imgIndex++;
     }
-    imgIndex++;
     changeImage()
 })
 

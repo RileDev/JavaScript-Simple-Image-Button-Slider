@@ -27,3 +27,17 @@
     width: 600px; /* Change the width of the image, make sure that .image_window is the same size as image! */
     height: inherit;
 }
+
+@media only screen and (max-width: 575px) {
+    .image_window{
+        max-width: 400px;
+        height: 600px;
+    }
+
+    .all_images img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
